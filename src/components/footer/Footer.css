@@ -1,0 +1,89 @@
+.footer{
+    width: 100%;
+    background-color: var(--PR-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 156px;
+    gap: 20px;
+}
+.footer-column-0ne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.footer-one img{
+    width: 100px;
+    height: 39px;
+}
+.footerss p{
+    padding: 15px;
+    font-size: 14px;
+}
+.footerss span{
+    font-weight: 400;
+}
+.title{
+    font-weight: 800;
+}
+.footer p{
+    color: var(--SEC-white);
+}
+.footer-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.install{
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+.install img{
+    width: 100px;
+    height: 39px;
+}
+.bankcards{
+    margin-left: 15px;
+}
+.footer-five p{
+    text-align: center;
+}
+@media (max-width:1024px) {
+    .footer{
+        padding: 20px 40px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .title span{
+        font-weight: 100;
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:820px) {
+    .footer{
+        padding: 20px 10px;
+        justify-content: start;
+        align-items: start;
+    }
+    .footer-column-0ne{
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+    }
+    .footer p{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:391px) {
+    .footer p{
+        font-size: 14px;
+    }
+}

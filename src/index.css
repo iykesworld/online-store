@@ -1,0 +1,27 @@
+:root{
+  --PR-white: #ffffff;
+  --SEC-white: #eeedeb;
+  --PR-black: #2b2b2b;
+  --SEC-black: #939185;
+  --Accent: #c26c23;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-family: "Playfair Display", serif;
+}
+Link{
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  color: var(--PR-black);
+  font-family: "Nanum Gothic", sans-serif;
+}

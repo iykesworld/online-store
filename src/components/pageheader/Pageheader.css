@@ -1,0 +1,23 @@
+.pageheader{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(240deg, #363232 10%, #636361 39%, #454541 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.pageheader h1{
+    color: var(--SEC-white);
+    margin-bottom: 10px;
+}
+.pageheader p{
+    color: var(--SEC-white);
+}
+/* Responsiveness */
+@media (max-width:1024px) {
+    .pageheader{
+        height: 30vh;  
+    }
+}
